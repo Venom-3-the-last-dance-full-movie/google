@@ -3,63 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meesho Style Interface</title>
+    <title>Grozec</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Header Section -->
-    <header>
-        <div class="header">
-            <div class="menu-icon">&#9776;</div>
-            <div class="logo">meesho</div>
-            <div class="header-icons">
-                <span class="heart-icon">❤️</span>
-                <span class="cart-icon">🛒</span>
-            </div>
-        </div>
-        <div class="search-bar">
-            <input type="text" placeholder="Search for Sarees, Kurtis, Cosmetics, etc.">
-        </div>
-    </header>
+    <div class="header">
+        <div class="banner">Free delivery in 10 minutes! in Atarra (8AM to 9PM)</div>
+        <h1>Grozec</h1>
+        <p>Grozec now save time and money</p>
+        <input type="text" class="search-bar" placeholder="Search for a product">
+    </div>
 
-    <!-- Location Section -->
-    <section class="location">
-        <p>📍 Add delivery location to check extra discount</p>
-    </section>
+    <div class="product-list">
+        <div class="product-card">
+            <div class="discount">29% off</div>
+            <img src="tea.jpg" alt="Tea and Coffee">
+            <p>चाय और कॉफी - Taja Tea, Mohini, ...</p>
+            <p class="price">₹25 <span class="old-price">₹35</span></p>
+            <button class="add-btn">+ Add</button>
+        </div>
+        <div class="product-card">
+            <div class="discount">50% off</div>
+            <img src="snacks.jpg" alt="Snacks">
+            <p>चिप्स नमकीन और कुरकुरे - Kurkure, ...</p>
+            <p class="price">₹5 <span class="old-price">₹10</span></p>
+            <button class="add-btn">+ Add</button>
+        </div>
+    </div>
 
-    <!-- Categories Section -->
-    <section class="categories">
-        <div class="category-item">
-            <img src="icon1.png" alt="Category">
-            <p>Categories</p>
-        </div>
-        <div class="category-item">
-            <img src="icon2.png" alt="Kurti & Dress">
-            <p>Kurti & Dress</p>
-        </div>
-        <div class="category-item">
-            <img src="icon3.png" alt="Kids & Toys">
-            <p>Kids & Toys</p>
-        </div>
-        <div class="category-item">
-            <img src="icon4.png" alt="Westernwear">
-            <p>Westernwear</p>
-        </div>
-        <!-- Add more categories as needed -->
-    </section>
-
-    <!-- Banner Section -->
-    <section class="banner">
-        <img src="image/IMG_20241008_154426_480.jpg" alt="Banner">
-    </section>
-
-    <!-- Bottom Navigation -->
-    <footer>
-        <div class="nav-item">Home</div>
-        <div class="nav-item">Categories</div>
-        <div class="nav-item">My Orders</div>
-        <div class="nav-item">Help</div>
-        <div class="nav-item">Account</div>
-    </footer>
+    <div class="bottom-nav">
+        <a href="#home" class="nav-item">Home</a>
+        <a href="#orders" class="nav-item">Orders</a>
+        <a href="#cart" class="nav-item">Cart</a>
+        <a href="#account" class="nav-item">Account</a>
+    </div>
 </body>
 </html>
